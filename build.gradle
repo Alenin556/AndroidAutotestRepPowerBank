@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id("io.qameta.allure") version "2.11.2"
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation(
+            'com.codeborne:selenide:6.17.0',
+            'org.junit.jupiter:junit-jupiter:5.9.2',
+            'io.appium:java-client:8.3.0',
+    )
+    testImplementation(
+            'org.junit.jupiter:junit-jupiter-api:5.9.2', //тесты
+            'com.codeborne:selenide:6.17.0', // локаторы
+            'org.awaitility:awaitility:4.2.0',
+            'io.qameta.allure:allure-junit5:2.19.0', //отчет
+            'io.qameta.allure:allure-selenide:2.19.0', // отображение последовательнсти шагов в отчетах
+            'io.appium:java-client:8.3.0', //для связи эмулятора и кода
+            'org.aeonbits.owner:owner:1.0.12', //зависимость необходимая для чтения данных из properties
+    )
+    testRuntimeOnly(
+            'org.slf4j:slf4j-simple:2.0.7', //логи
+            'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+    )
+}
+
+test {
+    useJUnitPlatform()
+}
