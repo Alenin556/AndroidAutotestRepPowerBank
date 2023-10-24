@@ -1,15 +1,9 @@
 package settings.listeners;
-
 import com.codeborne.selenide.Selenide;
-
 import org.junit.jupiter.api.extension.AfterTestExecutionCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.openqa.selenium.OutputType;
-
 import java.lang.reflect.Method;
-import java.util.concurrent.ExecutionException;
-
-import dev.failsafe.ExecutionContext;
 import io.qameta.allure.Attachment;
 
 public class AllureListener implements AfterTestExecutionCallback {

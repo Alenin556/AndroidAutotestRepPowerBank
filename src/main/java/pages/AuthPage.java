@@ -3,9 +3,10 @@ package pages;
 import com.codeborne.selenide.SelenideElement;
 import static com.codeborne.selenide.Selenide.$;
 
+import io.appium.java_client.AppiumBy;
 import io.appium.java_client.MobileBy;
 
-public class AuthPage {
+public class AuthPage{
 
-    private SelenideElement element = $(MobileBy.id(""));
+    public final SelenideElement authButton = $(AppiumBy.id("button_auth"));
 }
