@@ -15,6 +15,7 @@ dependencies {
             'com.codeborne:selenide:6.17.0',
             'org.junit.jupiter:junit-jupiter:5.9.2',
             'io.appium:java-client:8.3.0',
+            'org.projectlombok:lombok:1.18.26'
     )
     testImplementation(
             'org.junit.jupiter:junit-jupiter-api:5.9.2',

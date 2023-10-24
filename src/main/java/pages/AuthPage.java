@@ -8,5 +8,5 @@ import io.appium.java_client.MobileBy;
 
 public class AuthPage{
 
-    public final SelenideElement authButton = $(AppiumBy.id("button_auth"));
+    public final SelenideElement authButton = $(AppiumBy.ByAndroidUIAutomator.id("button_auth"));
 }

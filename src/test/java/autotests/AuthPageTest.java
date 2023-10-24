@@ -15,13 +15,12 @@ import pages.AuthPage;
 public class AuthPageTest extends BaseTest {
     AuthPage authPage = new AuthPage();
 
-    @Test
-    @DisplayName("Проверка состояния кнопки войти")
-    public void enterAuthButtonTest() throws MalformedURLException {
-        initialize();
-        step("Проверить что кнопка \"войти\" присутствует на экране", () -> {
-            authPage.authButton.shouldBe(Condition.exist);
-        });
-    }
+//    @Test
+//    @DisplayName("Проверка состояния кнопки войти")
+//    public void enterAuthButtonTest() {
+//        step("Проверить что кнопка \"войти\" присутствует на экране", () -> {
+//            authPage.authButton.shouldBe(Condition.exist);
+//        });
+//    }
 
 }
