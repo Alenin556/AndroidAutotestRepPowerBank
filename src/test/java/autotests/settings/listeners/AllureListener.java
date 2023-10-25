@@ -1,4 +1,4 @@
-package settings.listeners;
+package autotests.settings.listeners;
 import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.extension.AfterTestExecutionCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;

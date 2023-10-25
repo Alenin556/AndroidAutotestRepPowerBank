@@ -1,4 +1,4 @@
-package settings.config;
+package autotests.settings.config;
 
 import org.aeonbits.owner.Config;
 //благодаря библиотеки происходит чтение пропертей

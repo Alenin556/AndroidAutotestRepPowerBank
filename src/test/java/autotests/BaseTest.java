@@ -26,7 +26,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public abstract class BaseTest {
 
-    private static AppiumDriver driver;
+    protected static AppiumDriver driver;
 
 
     @BeforeAll
@@ -40,15 +40,6 @@ public abstract class BaseTest {
         capabilities.setCapability(APP,"C:\\Projects\\PowerBankAndriodAppAutotests\\src\\test\\resources\\apk\\PowerBankApp\\Auth.apk");
 
        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-    }
-
-    @Test
-    @DisplayName("Проверка состояния кнопки войти")
-    public void enterAuthButtonTest() {
-        step("Проверить что кнопка \"войти\" присутствует на экране", () -> {
-            WebElement authButton = driver.findElement(By.id("button_auth"));
-            authButton.click();
-        });
     }
 
     @AfterAll

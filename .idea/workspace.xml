@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f938e409-b320-45ac-9c74-1c3b1aac5208" name="Changes" comment="success run test with driver locators">
+      <change afterPath="$PROJECT_DIR$/src/main/java/check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/autotests/US_1_1_Home_Screen_Registration/US_1_1_Home_Screen_Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/autotests/minorChecks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/AuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AuthPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/OnboardingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/OnboardingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/autotests/AuthPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/AuthPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/autotests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/settings/config/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/settings/config/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/settings/config/EmulatorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/settings/config/EmulatorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/settings/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/settings/config/TestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/settings/driver/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/settings/driver/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/settings/driver/DriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/settings/driver/DriverSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/settings/driver/EmulatorHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/settings/driver/EmulatorHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/settings/helper/ApkInfoHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/settings/helper/ApkInfoHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/settings/listeners/AllureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/settings/listeners/AllureListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +84,10 @@
     "cidr.known.project.marker": "true",
     "com.android.tools.idea.streaming.emulator.frame.visible": "false",
     "last_opened_file_path": "C:/Projects/PowerBankAndriodAppAutotests",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -101,98 +113,13 @@
       <recent name="settings.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AuthPageTest.enterAuthButtonTest">
-    <configuration name="AuthPageTest.enterAuthButtonTest (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;autotests.AuthPageTest.enterAuthButtonTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AuthPageTest.enterAuthButtonTest (3)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;autotests.AuthPageTest.enterAuthButtonTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AuthPageTest.enterAuthButtonTest (4)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;autotests.AuthPageTest.enterAuthButtonTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AuthPageTest.enterAuthButtonTest (5)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;autotests.AuthPageTest.enterAuthButtonTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Gradle.minorChecks.encodeTest">
+    <configuration name="check" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="check" />
+      <module name="PowerBankAndriodAppAutotests.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="AuthPageTest.enterAuthButtonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -217,13 +144,82 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="US_1_1_Home_Screen_Registration.checkingTheDisplayOfTheOnboardingScreenTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;autotests.US_1_1_Home_Screen_Registration.US_1_1_Home_Screen_Registration.checkingTheDisplayOfTheOnboardingScreenTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="US_1_1_Home_Screen_Registration.encodeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;autotests.US_1_1_Home_Screen_Registration.US_1_1_Home_Screen_Registration.encodeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="minorChecks.encodeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;autotests.minorChecks.encodeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.minorChecks.encodeTest" />
+        <item itemvalue="Application.check" />
+        <item itemvalue="Gradle.US_1_1_Home_Screen_Registration.checkingTheDisplayOfTheOnboardingScreenTest (1)" />
+        <item itemvalue="Gradle.US_1_1_Home_Screen_Registration.encodeTest" />
         <item itemvalue="Gradle.AuthPageTest.enterAuthButtonTest" />
-        <item itemvalue="Gradle.AuthPageTest.enterAuthButtonTest (5)" />
-        <item itemvalue="Gradle.AuthPageTest.enterAuthButtonTest (4)" />
-        <item itemvalue="Gradle.AuthPageTest.enterAuthButtonTest (3)" />
-        <item itemvalue="Gradle.AuthPageTest.enterAuthButtonTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698141579957</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="success run test with driver locators">
+      <created>1698167607923</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698167607923</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

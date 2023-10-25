@@ -1,7 +1,7 @@
-package settings.driver;
+package autotests.settings.driver;
 
 
-import settings.config.ConfigReader;
+import autotests.settings.config.ConfigReader;
 import io.appium.java_client.android.AndroidDriver;
 
 

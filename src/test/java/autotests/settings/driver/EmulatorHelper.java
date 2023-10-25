@@ -1,4 +1,4 @@
-package settings.driver;
+package autotests.settings.driver;
 
 
 
