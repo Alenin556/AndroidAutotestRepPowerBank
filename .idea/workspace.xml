@@ -4,23 +4,18 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f938e409-b320-45ac-9c74-1c3b1aac5208" name="Changes" comment="success run test with driver locators">
-      <change afterPath="$PROJECT_DIR$/src/main/java/check.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/autotests/US_1_1_Home_Screen_Registration/US_1_1_Home_Screen_Registration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/autotests/minorChecks.java" afterDir="false" />
+    <list default="true" id="f938e409-b320-45ac-9c74-1c3b1aac5208" name="Changes" comment="first tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/autotests/helper/ApkInfoHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/autotests/helper/EmulatorHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AuthPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/OnboardingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/OnboardingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotests/AuthPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/AuthPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/settings/config/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/settings/config/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/settings/config/EmulatorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/settings/config/EmulatorConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/settings/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/settings/config/TestConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/settings/driver/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/settings/driver/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/settings/driver/DriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/settings/driver/DriverSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/settings/driver/EmulatorHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/settings/driver/EmulatorHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/settings/helper/ApkInfoHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/settings/helper/ApkInfoHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/settings/listeners/AllureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/settings/listeners/AllureListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autotests/US_1_1_Home_Screen_Registration/US_1_1_Home_Screen_Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/US_1_1_Home_Screen_Registration/US_1_1_Home_Screen_Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autotests/settings/config/ConfigReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autotests/settings/config/EmulatorConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autotests/settings/config/TestConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autotests/settings/driver/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autotests/settings/driver/DriverSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autotests/settings/driver/EmulatorHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autotests/settings/helper/ApkInfoHelper.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,19 +72,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cidr.known.project.marker": "true",
-    "com.android.tools.idea.streaming.emulator.frame.visible": "false",
-    "last_opened_file_path": "C:/Projects/PowerBankAndriodAppAutotests",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.android.tools.idea.streaming.emulator.frame.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/PowerBankAndriodAppAutotests&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Asus\OneDrive\Рабочий стол\PowerBankAndriodAppAutotests\src\test\resources\configs" />
@@ -113,7 +108,7 @@
       <recent name="settings.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.minorChecks.encodeTest">
+  <component name="RunManager" selected="Gradle.US_1_1_Home_Screen_Registration.checkingTheDisplayOfTheOnboardingScreenTest (1)">
     <configuration name="check" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="check" />
       <module name="PowerBankAndriodAppAutotests.main" />
@@ -215,9 +210,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.US_1_1_Home_Screen_Registration.checkingTheDisplayOfTheOnboardingScreenTest (1)" />
         <item itemvalue="Gradle.minorChecks.encodeTest" />
         <item itemvalue="Application.check" />
-        <item itemvalue="Gradle.US_1_1_Home_Screen_Registration.checkingTheDisplayOfTheOnboardingScreenTest (1)" />
         <item itemvalue="Gradle.US_1_1_Home_Screen_Registration.encodeTest" />
         <item itemvalue="Gradle.AuthPageTest.enterAuthButtonTest" />
       </list>
@@ -267,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698167607923</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="first tests">
+      <created>1698233493295</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698233493295</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +288,7 @@
     <MESSAGE value="start app, but cant use locators" />
     <MESSAGE value="delete misunderstanding methods and classes&#10;start app, but cant use locators" />
     <MESSAGE value="success run test with driver locators" />
-    <option name="LAST_COMMIT_MESSAGE" value="success run test with driver locators" />
+    <MESSAGE value="first tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="first tests" />
   </component>
 </project>
